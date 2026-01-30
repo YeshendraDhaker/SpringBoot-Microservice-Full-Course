@@ -42,10 +42,10 @@
 
 ## MODULE 2: E-COMMERCE PLATFORM - Core Microservices (45 lectures)
 **Duration: ~12 hours**
-**Project: Building "ShopEase" - Complete E-commerce Platform**
+**Project: Building "ShopZone" - Complete E-commerce Platform**
 
 ### Project Setup & Architecture
-1. **Project Introduction - ShopEase Platform**
+1. **Project Introduction - ShopZone Platform**
    - Platform requirements and features
    - Microservices we'll build
    - Technology stack overview
@@ -133,6 +133,10 @@
     - Multi-warehouse support
     - Location-based inventory
     - Stock transfer between warehouses
+   
+15. **Config Service - Centralized Configuration [LIVE]()**
+    - Understnading the problem
+    - Implementing a centralized configuration server connect all services
 
 ### Cart Service Implementation
 15. **Cart Service - Cart Operations**
@@ -247,17 +251,17 @@
     - Why Docker Compose
     - YAML structure
 
-36. **Docker Compose for ShopEase - Part 1**
+36. **Docker Compose for ShopZone - Part 1**
     - Setting up all services
     - Service dependencies
     - Network configuration
 
-37. **Docker Compose for ShopEase - Part 2**
+37. **Docker Compose for ShopZone - Part 2**
     - Environment variables
     - Volume mounts
     - Health checks
 
-38. **Running ShopEase with Docker Compose**
+38. **Running ShopZone with Docker Compose**
     - Starting all services
     - Troubleshooting common issues
     - Viewing logs
@@ -316,7 +320,7 @@
    - Eureka server configuration
    - Dashboard overview
 
-4. **Registering All ShopEase Services with Eureka**
+4. **Registering All ShopZone Services with Eureka**
    - Client configuration in all services
    - Service metadata
    - Health checks
@@ -347,7 +351,7 @@
     - How it works internally
     - Request flow
 
-11. **Building API Gateway for ShopEase**
+11. **Building API Gateway for ShopZone**
     - Gateway setup
     - Basic routing configuration
 
@@ -415,7 +419,7 @@
    - Cascade failures
    - Real-world outage examples
 
-2. **Common Failure Scenarios in ShopEase**
+2. **Common Failure Scenarios in ShopZone**
    - Payment service downtime
    - Inventory service slow response
    - Database connection issues
@@ -504,7 +508,7 @@
    - Event-carried state transfer
    - Event sourcing
 
-3. **ShopEase Event-Driven Scenarios**
+3. **ShopZone Event-Driven Scenarios**
    - Order placed → Inventory update
    - Order placed → Email notification
    - Payment success → Order status update
@@ -584,7 +588,7 @@
     - Use cases
     - Decision making
 
-20. **Migrating ShopEase to Kafka**
+20. **Migrating ShopZone to Kafka**
     - Kafka setup
     - Producer/Consumer configuration
     - Testing with Kafka
@@ -627,7 +631,7 @@
    - Realm creation
    - Client registration
 
-8. **Configuring ShopEase Realm**
+8. **Configuring ShopZone Realm**
    - Creating clients for services
    - User federation
    - Roles and groups
@@ -730,7 +734,7 @@
     - Spring Boot Actuator
     - Micrometer registry
 
-11. **Custom Metrics in ShopEase**
+11. **Custom Metrics in ShopZone**
     - Order count metrics
     - Payment success rate
     - API latency metrics
@@ -750,7 +754,7 @@
 
 15. **Grafana Dashboards**
     - Pre-built dashboards
-    - Custom dashboards for ShopEase
+    - Custom dashboards for ShopZone
     - Panels and visualizations
 
 ### Alerting
@@ -809,7 +813,7 @@
    - Accessing dashboard
    - Dashboard tour
 
-### Deploying ShopEase to Kubernetes
+### Deploying ShopZone to Kubernetes
 6. **Kubernetes YAML Deep Dive**
    - Deployment manifest
    - Service manifest
@@ -844,7 +848,7 @@
     - Eureka deployment
     - LoadBalancer service
 
-13. **Testing ShopEase on Kubernetes**
+13. **Testing ShopZone on Kubernetes**
     - Accessing services
     - Testing end-to-end flows
     - Troubleshooting
@@ -971,7 +975,7 @@
     - Cluster creation
     - Node pool configuration
 
-40. **Deploying ShopEase to GKE**
+40. **Deploying ShopZone to GKE**
     - Helm chart deployment
     - LoadBalancer setup
     - DNS configuration
@@ -1571,7 +1575,7 @@
 **Total Lectures:** ~260 lectures
 **Total Duration:** ~75 hours
 **Projects Built:** 3 Production-Grade Applications
-1. ShopEase (E-commerce Platform)
+1. ShopZone (E-commerce Platform)
 2. StreamFlix (Video Streaming Platform)
 3. RideShare (Ride-Sharing Platform)
 
