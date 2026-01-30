@@ -1561,12 +1561,8 @@
 ## TOTAL COURSE STATISTICS
 
 **Total Modules:** 12 (11 core + 1 bonus)
-**Total Lectures:** ~260 lectures
-**Total Duration:** ~75 hours
-**Projects Built:** 3 Production-Grade Applications
-1. ShopZone (E-commerce Platform)
-2. NetFlix (Video Streaming Platform)
-3. RideShare - Uber (Ride-Sharing Platform)
+**Total Lectures:** ~405 lectures
+**Total Duration:** ~104+ hours
 
 ## KEY TECHNOLOGIES COVERED
 
