@@ -1552,20 +1552,9 @@
    - Best practices
    - Lessons from production
 
-8. **Career Guidance & Next Steps**
-   - Building portfolio projects
-   - Contributing to open source
-   - Continuous learning
-
 ---
 
 ## Course Wrap-up (1 lecture)
-
-1. **Congratulations & Thank You**
-   - Course summary
-   - What you've learned
-   - Next steps
-   - Community & support
 
 ---
 
@@ -1576,8 +1565,8 @@
 **Total Duration:** ~75 hours
 **Projects Built:** 3 Production-Grade Applications
 1. ShopZone (E-commerce Platform)
-2. StreamFlix (Video Streaming Platform)
-3. RideShare (Ride-Sharing Platform)
+2. NetFlix (Video Streaming Platform)
+3. RideShare - Uber (Ride-Sharing Platform)
 
 ## KEY TECHNOLOGIES COVERED
 
@@ -1601,7 +1590,7 @@
 ## WHAT MAKES THIS COURSE UNIQUE
 
 ✅ **3 Complete Production-Grade Projects** instead of toy examples
-✅ **Real-world scenarios** like Amazon, Netflix, Uber
+✅ **Real-world scenarios** Amazon, Netflix, Uber
 ✅ **Hands-on implementation** from day one (Module 2 onwards)
 ✅ **Event-driven architecture** with RabbitMQ & Kafka
 ✅ **Complete Observability** stack (Logging, Metrics, Tracing)
