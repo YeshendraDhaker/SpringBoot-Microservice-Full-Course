@@ -1,5 +1,6 @@
 🔹 AUTHENTICATION APIs:
    POST /api/auth/register           → John creates account (email, password, name, phone).
+   
    POST /api/auth/login              → John logs in (returns JWT token).
    POST /api/auth/refresh-token      → Refresh expired token.
    POST /api/auth/logout             → John logs out.
