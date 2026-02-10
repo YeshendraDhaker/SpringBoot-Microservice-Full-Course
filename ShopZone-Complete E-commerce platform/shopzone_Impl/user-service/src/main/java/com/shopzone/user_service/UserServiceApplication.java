@@ -1,4 +1,4 @@
-package com.shopzon.user_service;
+package com.shopzone.user_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
