@@ -1,0 +1,54 @@
+spring:
+  application:
+    name: user-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/shopzone_users?createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+server:
+  port: 8081
+
+# JWT Configuration
+jwt:
+  secret: your-secret-key
+  expiration: 900000          # 15 minutes (in milliseconds)
+  refresh-expiration: 604800000  # 7 days (in milliseconds)
+
+  # ✅ NEW: Cookie Configuration (in seconds)
+  cookie:
+    max-age: 900              # 15 minutes (900 seconds)
+    secure: false             # Set to true in production (HTTPS only)
+  refresh-cookie:
+    max-age: 604800           # 7 days (604800 seconds)
+
+# Application Configuration
+app:
+  frontend:
+    url: http://localhost:3000
+
+  password-reset:
+    token-validity-minutes: 30
+
+# Notification Service
+notification:
+  service:
+    url: http://localhost:8087
+
+# Swagger
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
