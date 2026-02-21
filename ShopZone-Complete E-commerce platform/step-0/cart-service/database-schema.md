@@ -2,7 +2,7 @@
 * **Service Name:** Cart Service
 * **Port:** 8083
 * **Purpose:** Shopping cart management, add/remove items, calculate totals, apply discounts
-* **Database:** MySQL (`shopzone_carts`)
+* **Database:** PostgreSQL (`shopzone_carts`)
 
 ---
 
