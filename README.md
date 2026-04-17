@@ -1,5 +1,5 @@
 # Master Microservices with Real-World Projects 
-### The course is LIVE on Youtube [Channel](https://www.youtube.com/@YeshendraDhaker). Link to [playlist](https://www.youtube.com/playlist?list=PLq2IQ7nZjFRGltba_w9oH6aLVrjmvhszx)
+### 🔴 LIVE on YouTube → [Channel](https://www.youtube.com/@YeshendraDhaker) | [Full Playlist](https://www.youtube.com/playlist?list=PLq2IQ7nZjFRGltba_w9oH6aLVrjmvhszx)
 ## Practical Implementation-Driven Course
 
 ---
